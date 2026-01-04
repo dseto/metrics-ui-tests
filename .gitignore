@@ -1,0 +1,6 @@
+# UI test artifacts
+**/bin/
+**/obj/
+**/TestResults/
+**/screenshot_*.png
+specs

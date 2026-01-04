@@ -1,0 +1,22 @@
+{
+  "$schema": "https://schemas.reqnroll.net/reqnroll-config-latest.json",
+  "language": {
+    "feature": "pt-BR",
+    "binding": "pt-BR"
+  },
+  "runtime": {
+    "missingOrPendingStepsOutcome": "Pending",
+    "stopAtFirstError": false
+  },
+  "trace": {
+    "stepDefinitionSkeletonStyle": "CucumberExpressionAttribute",
+    "coloredOutput": false
+  },
+  "generator": {
+    "disableFriendlyTestNames": false,
+    "addNonParallelizableMarkerForTags": [
+      "serial",
+      "no-parallel"
+    ]
+  }
+}
